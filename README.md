@@ -11,18 +11,29 @@ It uses OOP concepts like abstraction, inheritance, encapsulation, and polymorph
 
 Code Explanation
 1. Abstract Class: BankAccount
+
 Represents a generic bank account.
+
 Contains:
+
 *accountNumber, accountHolder, and balance as protected attributes.
+
 *An abstract deposit() and withdraw() method (to be implemented in subclasses).
+
 *A method displayBalance() to show the current balance.
+
 *getAccountNumber() to fetch an account using the account number.
 
 2. Subclass: SavingsAccount
+
 Inherits from BankAccount.
+
 Has an additional attribute interestRate.
+
 Implements:
+
 *deposit(): Increases balance.
+
 *withdraw(): Allows withdrawal only if sufficient balance.
 
 3. Subclass: CheckingAccount
