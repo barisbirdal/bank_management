@@ -37,27 +37,45 @@ Implements:
 *withdraw(): Allows withdrawal only if sufficient balance.
 
 3. Subclass: CheckingAccount
+
 Inherits from BankAccount.
+
 Has an attribute overdraftLimit (allows withdrawal beyond balance).
+
 Implements:
+
 *deposit(): Increases balance.
+
 *withdraw(): Allows overdraft withdrawal up to the limit.
 
 4. Bank Class
+
 Manages multiple bank accounts.
+
 Stores accounts in an ArrayList<BankAccount>.
+
 Methods:
+
 *addAccount(): Adds a new account.
+
 *findAccount(): Finds an account by account number.
 
 5. BankSystem (Main Class)
+
 Provides a menu-driven system for users.
+
 Uses Scanner for input.
+
 Allows users to:
+
 *Create an account (Savings or Checking).
+
 *Deposit money.
+
 *Withdraw money.
+
 *Check balance.
+
 *Exit the system.
 
 OOP Principles Used
